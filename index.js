@@ -16,6 +16,6 @@ app.post("/submit", (req, res) => {
     res.send(payload)
 })
 
-app.listen(8000, () => {
+app.listen(3000, () => {
     console.log("listening on port 8000")
 })
